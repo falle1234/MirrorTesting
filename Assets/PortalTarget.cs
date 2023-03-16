@@ -1,9 +1,8 @@
 using System;
-using UnityEngine;
-using UnityEngine.SceneManagement;
+
 [Serializable]
-public class PortalTarget 
+public class CrossSceneObject 
 {
-    public string spawnPoint;
+    public string gameObject;
     public string targetScene;
 }
