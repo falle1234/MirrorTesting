@@ -83,7 +83,7 @@ public class DropdownCrossSceneObjectDrawer : PropertyDrawer
                     PortalsInScene selectedObject = sceneLists[tag][SelectedSceneID];
                     property.FindPropertyRelative("targetScene").stringValue = selectedObject.scenePath;
                 }
-                if (newSelectedPortalID != SelectedPortalID)
+                if (newSelectedPortalID != SelectedPortalID && SelectedSceneID >= 0 )
                 {
                     SelectedPortalID = newSelectedPortalID;
                     PortalsInScene selectedObject = sceneLists[tag][SelectedSceneID];

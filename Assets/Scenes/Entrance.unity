@@ -129,7 +129,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-4416
+  m_Name: pb_Mesh-1878
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -374,7 +374,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 208853100}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.100754, y: 6.865093, z: 9.910482}
+  m_LocalPosition: {x: -10.100754, y: 6.69, z: 9.910482}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2357,7 +2357,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh40542
+  m_Name: pb_Mesh28242
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -2596,6 +2596,14 @@ PrefabInstance:
       propertyPath: target.targetScene
       value: Assets/Scenes/Entrance.unity
       objectReference: {fileID: 0}
+    - target: {fileID: 647898654678402114, guid: 660d311fb31a36f48a0e6e8272fcfeab, type: 3}
+      propertyPath: PortalTarget.gameObject
+      value: Spawnpoint 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 647898654678402114, guid: 660d311fb31a36f48a0e6e8272fcfeab, type: 3}
+      propertyPath: PortalTarget.targetScene
+      value: Assets/Scenes/Entrance.unity
+      objectReference: {fileID: 0}
     - target: {fileID: 852009568456142233, guid: 660d311fb31a36f48a0e6e8272fcfeab, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -2658,7 +2666,7 @@ PrefabInstance:
       objectReference: {fileID: 48112551}
     - target: {fileID: 852009568456142238, guid: 660d311fb31a36f48a0e6e8272fcfeab, type: 3}
       propertyPath: m_VersionIndex
-      value: 2185
+      value: 2200
       objectReference: {fileID: 0}
     - target: {fileID: 4876830707018821389, guid: 660d311fb31a36f48a0e6e8272fcfeab, type: 3}
       propertyPath: sceneId
